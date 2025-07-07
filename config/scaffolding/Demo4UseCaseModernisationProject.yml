@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: Demo4UseCaseModernisationProject
+  gitServerName: mhbgit
+  gitUrl: https://github.com/mhbabchia-eviden
+  gitUsername: mhbabchia-eviden
+  gitBranch: main
