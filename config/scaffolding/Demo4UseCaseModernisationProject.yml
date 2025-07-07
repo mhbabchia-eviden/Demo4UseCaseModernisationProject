@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/mhbabchia-eviden
   gitUsername: mhbabchia-eviden
   gitBranch: main
+services:
+- serviceName: project.demo4usecasemodernisation.integrations:orderServiceDemo
+  packages:
+  - name: Demo4UseCaseModernisationProject
+    version: "1.0"
