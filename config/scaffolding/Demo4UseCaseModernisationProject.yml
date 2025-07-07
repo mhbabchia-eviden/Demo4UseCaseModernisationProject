@@ -8,6 +8,7 @@ packages:
   gitUsername: mhbabchia-eviden
   gitBranch: main
 - name: mhbDescApiPackage
+  version: "1.0"
   gitServerName: mhbgit
   gitUrl: https://github.com/mhbabchia-eviden
   gitUsername: mhbabchia-eviden
@@ -16,4 +17,10 @@ services:
 - serviceName: project.demo4usecasemodernisation.integrations:orderServiceDemo
   packages:
   - name: Demo4UseCaseModernisationProject
+    version: "1.0"
+  - name: mhbDescApiPackage
+    version: "1.0"
+- serviceName: org.atos.api.StockApi_.services:GET_stock_svc1
+  packages:
+  - name: mhbDescApiPackage
     version: "1.0"
