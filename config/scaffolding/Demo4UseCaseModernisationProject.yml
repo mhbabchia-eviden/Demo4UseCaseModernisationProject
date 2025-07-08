@@ -13,6 +13,11 @@ packages:
   gitUrl: https://github.com/mhbabchia-eviden
   gitUsername: mhbabchia-eviden
   gitBranch: develop
+- name: mhbApi
+  gitServerName: mhbgit
+  gitUrl: https://github.com/mhbabchia-eviden
+  gitUsername: mhbabchia-eviden
+  gitBranch: develop
 services:
 - serviceName: project.demo4usecasemodernisation.integrations:orderServiceDemo
   packages:
