@@ -14,14 +14,29 @@ packages:
   gitUsername: mhbabchia-eviden
   gitBranch: develop
 - name: mhbApi
+  version: "1.0"
   gitServerName: mhbgit
   gitUrl: https://github.com/mhbabchia-eviden
   gitUsername: mhbabchia-eviden
   gitBranch: develop
 services:
+- serviceName: project.demo4usecasemodernisation.integrations:UserService
+  packages:
+  - name: Demo4UseCaseModernisationProject
+    version: "1.0"
+  - name: mhbApi
+    version: "1.0"
+  - name: mhbDescApiPackage
+    version: "1.0"
+- serviceName: mhbApi.userResource_.services:getUserByIdService
+  packages:
+  - name: mhbApi
+    version: "1.0"
 - serviceName: project.demo4usecasemodernisation.integrations:orderServiceDemo
   packages:
   - name: Demo4UseCaseModernisationProject
+    version: "1.0"
+  - name: mhbApi
     version: "1.0"
   - name: mhbDescApiPackage
     version: "1.0"
