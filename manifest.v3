@@ -8,19 +8,18 @@
   <null name="shutdown_services"/>
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
-    <value name="mhbDescApiPackage">1.0</value>
     <value name="WmJDBCAdapter">10.3.0.0.34</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">36</value>
+  <value name="build">37</value>
   <null name="description"/>
   <value name="created_date">07-07-2025 10:18:49 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-07-10T09:25:21.404510872Z</value>
+  <value name="lastUpdated">2025-07-10T09:25:30.04023245Z</value>
   <value name="wmProjectId">fl7dae153deeeda09fe9e9f0</value>
   <value name="creator">Enablement User</value>
 </Values>
