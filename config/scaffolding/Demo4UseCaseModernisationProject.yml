@@ -44,12 +44,10 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
-- serviceName: wm.adapter.wmjdbc.ui:getDBConfigInfo
+- serviceName: pub.utils:generateUUID
   packages:
-  - name: WmJDBCAdapter
-    version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
-    wpmRegistry: licensed
+  - name: WmPublic
+    version: 11.1.0.0.2040
 - serviceName: project.demo4usecasemodernisation.integrations:orderServiceDemo
   packages:
   - name: Demo4UseCaseModernisationProject
