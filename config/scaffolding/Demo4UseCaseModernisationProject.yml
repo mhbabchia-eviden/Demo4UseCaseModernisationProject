@@ -36,6 +36,20 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+- serviceName: project.demo4usecasemodernisation.integrations:myDatabaseService
+  packages:
+  - name: Demo4UseCaseModernisationProject
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: wm.adapter.wmjdbc.ui:getDBConfigInfo
+  packages:
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: project.demo4usecasemodernisation.integrations:orderServiceDemo
   packages:
   - name: Demo4UseCaseModernisationProject
