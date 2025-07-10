@@ -182,7 +182,7 @@ configurationVariables:
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ERP.connectionEnabled
   : "false"
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ERP.connectionManagerSettings.poolable
-  : "false"
+  : "true"
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.datasourceClass
   : org.postgresql.ds.PGSimpleDataSource
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolable
