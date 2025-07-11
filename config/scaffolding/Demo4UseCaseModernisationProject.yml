@@ -85,16 +85,14 @@ configurationVariables:
   : pgsqlDriver42
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.localDB.connectionSettings.dbType
   : POSTGRESQL
-  ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ERP.connectionSettings.transactionType
-  : LOCAL_TRANSACTION
-  ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ERP.connectionSettings.keyStore
-  : ""
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.localDB.connectionManagerSettings.maximumPoolSize
   : "10"
+  ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ERP.connectionSettings.keyStore
+  : ""
+  ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ERP.connectionSettings.transactionType
+  : LOCAL_TRANSACTION
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ERP.connectionSettings.networkProtocol
   : ""
-  ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_6.connectionManagerSettings.minimumPoolSize
-  : "1"
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.localDB.connectionSettings.user
   : postgres
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.keyStore
@@ -115,8 +113,6 @@ configurationVariables:
   : mynetwork.my_postgres
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ERP.connectionManagerSettings.poolable
   : "false"
-  ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_6.connectionManagerSettings.startupRetryCount
-  : "0"
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.password
   : "{AES}q8tttjZEAL28u36QuEDiqA=="
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_6.connectionSettings.trustStore
@@ -141,8 +137,6 @@ configurationVariables:
   : org.postgresql.ds.PGSimpleDataSource
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.driverType
   : driverPosgres
-  ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_6.connectionManagerSettings.startupBackoffSecs
-  : "10"
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.databaseName
   : postgres
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.localDB.connectionManagerSettings.heartBeatInterval
@@ -165,8 +159,6 @@ configurationVariables:
   : "false"
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.networkProtocol
   : ""
-  ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_6.connectionManagerSettings.expireTimeout
-  : "1000"
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_6.connectionSettings.driverType
   : postgresDriver
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.serverName
@@ -191,8 +183,6 @@ configurationVariables:
   : ""
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ERP.connectionSettings.password
   : "{AES}q8tttjZEAL28u36QuEDiqA=="
-  ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_6.connectionManagerSettings.heartBeatInterval
-  : "0"
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.portNumber
   : "5432"
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.poolable
@@ -221,8 +211,6 @@ configurationVariables:
   : org.postgresql.ds.PGSimpleDataSource
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolable
   : "false"
-  ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_6.connectionManagerSettings.poolIncrementSize
-  : "1"
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ERP.connectionSettings.dbType
   : POSTGRESQL
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.serverName
@@ -257,12 +245,8 @@ configurationVariables:
   : "{AES}q8tttjZEAL28u36QuEDiqA=="
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_6.connectionEnabled
   : "false"
-  ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_6.connectionManagerSettings.maximumPoolSize
-  : "10"
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.dbType
   : POSTGRESQL
-  ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_6.connectionManagerSettings.blockingTimeout
-  : "1000"
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.localDB.connectionSettings.password
   : "{AES}q8tttjZEAL28u36QuEDiqA=="
   ? artConnection.Demo4UseCaseModernisationProject.project.demo4usecasemodernisation.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.databaseName
